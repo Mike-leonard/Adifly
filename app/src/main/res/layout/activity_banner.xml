@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mike.amina.ritu.Banner">
+
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_alignLeft="@+id/adView"
+        android:layout_alignStart="@+id/adView"
+        android:layout_marginBottom="33dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adView4"
+        android:layout_alignStart="@+id/adView4"
+        android:layout_below="@+id/adView4"
+        android:layout_marginTop="32dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/adView2"
+        android:layout_marginTop="15dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <TextView
+        android:id="@+id/lol"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/adView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Counter"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/fv_clk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lol"
+        android:layout_alignEnd="@+id/adView2"
+        android:layout_alignRight="@+id/adView2"
+        android:layout_marginBottom="25dp"
+        android:text="5 IMP" />
+
+    <Button
+        android:id="@+id/tn_clk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adView2"
+        android:layout_alignStart="@+id/adView2"
+        android:layout_alignTop="@+id/fv_clk"
+        android:text="10 IMP" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mike.amina.ritu.Interstial">
+
+    <!-- view for AdMob Interstitial Ad -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/interstitial_ad_sample"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Button
+        android:id="@+id/rd_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/fv_bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/next_level" />
+
+    <Button
+        android:id="@+id/fv_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/tn_bt"
+        android:layout_alignLeft="@+id/tn_bt"
+        android:layout_alignStart="@+id/tn_bt"
+        android:layout_marginBottom="14dp"
+        android:text="@string/next_level2" />
+
+    <Button
+        android:id="@+id/tn_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_above="@+id/onefv_bt"
+        android:layout_alignLeft="@+id/onefv_bt"
+        android:layout_alignStart="@+id/onefv_bt"
+        android:layout_marginBottom="41dp"
+        android:text="@string/next_level3"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/onefv_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignLeft="@+id/rd_bt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/rd_bt"
+        android:layout_marginBottom="30dp"
+        android:text="@string/next_level4" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Counter" />
+
+
+</RelativeLayout>

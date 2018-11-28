@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Latif</string>
+    <string name="title_activity_banner">4 Banner ads to Load</string>
+
+    <string name="action_settings">HASAN</string>
+
+    <string name="interstitial_ad_sample">Click to Start Interstitial</string>
+    <string name="start_level">Counter</string>
+    <string name="next_level">3 ads</string>
+    <string name="next_level2">5 ads</string>
+    <string name="next_level3">10 ads</string>
+    <string name="next_level4">15 ads</string>
+
+    <!-- app id -->
+    <string name="app_identity">ca-app-pub-2268892932556286~2695048621</string>
+    <!--admob_interstitial_id -->
+    <string name="admob_interstitial_id1">ca-app-pub-2268892932556286/8889103060</string>
+
+    <!--rewarded vedio id -->
+    <string name="admob_reward_id">ca-app-pub-2268892932556286/3608856221</string>
+
+    <!-- Banner id -->
+    <string name="banner_ad_unit_id">ca-app-pub-2268892932556286/1968471495</string>
+    <string name="title_activity_interstial">Interstial</string>
+    <string name="title_activity_banner_nd">10 Banner ads to Load</string>
+    <string name="title_activity_banner_rd">5 Banner ads to Load</string>
+    <string name="title_activity_rules">Process to Do</string>
+
+</resources>
